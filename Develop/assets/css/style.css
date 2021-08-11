@@ -74,6 +74,26 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+/* Moved .services CSS rules closer to .content CSS rules on page, in order to make it easier to read.  */
+/* There were three different classes in HTML. Combined into one class="services", as they all had the same formatting. */
+.services {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* The new class="services" contains an img. Changed CSS rule to .services img */
+.services img {
+    max-height: 200px;
+}
+/* Similarly, all 3 h2 had the same formatting. Changed CSS rule to .services h2. */
+.services h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .benefits {
     margin-right: 20px;
@@ -91,6 +111,12 @@ p {
     text-align: center;
 }
 
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* These can all be condensed into a single CSS rule.
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,66 +130,12 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
