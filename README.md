@@ -18,8 +18,8 @@
 #### To achieve these goals, I made changes to the HTML and CSS code, including:
 ##### HTML
  - Adding <nav> tags in the header to better outline the page architecture.
- - Changing some <div> tags to <section> to better define the content on the page.
- - Changing <div id="footer"> to the semantic tag <footer>
+ - Changing some `<div>` tags to <section> to better define the content on the page.
+ - Changing `<div id="footer">` to the semantic tag `<footer>`
 
 ##### CSS 
  - Condensing a good deal of repetitive code into one class to apply necessary styling.
